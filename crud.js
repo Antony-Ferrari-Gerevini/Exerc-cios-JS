@@ -27,7 +27,6 @@ function listarPessoas() {
 cadastrarPessoa({nome: "Beto", idade: 55, cidade: "São José dos Campos"});
 cadastrarPessoa({nome: "Metilde", idade: 54, cidade: "Saúde"});
 
-
 atualizarPessoa(pessoas[0].id, {cidade: "Saúde"});
 console.log("Lista após atualização de uma pessoa:");
 console.log(listarPessoas());
